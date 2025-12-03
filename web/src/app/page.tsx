@@ -66,11 +66,14 @@ export default function Home() {
             <ShieldAlert className="w-4 h-4" />
             <span>Base de Datos de Infieles</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-purple-400 tracking-tight">
-            Descubre la Verdad
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-purple-400">
+              Eri infiel?
+            </span>
+            <span className="ml-4">🤨</span>
           </h1>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Busca en nuestra base de datos recopilada. Encuentra coincidencias por nombre y conoce los detalles.
+            Base de datos publica recopilada. Encuentra coincidencias y detalles.
           </p>
 
           {lastUpdated && (
